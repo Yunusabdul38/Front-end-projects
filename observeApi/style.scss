@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    .container{
+        border: 1px solid gray;
+        padding: 20px;
+
+        .card{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(43, 40, 40);
+            width: 200px;
+            color: white;
+            text-transform: capitalize;
+            font-size: 2rem;
+            height: 150px;
+            margin-bottom: 20px;
+            opacity: 0;      
+    
+            &:nth-child(even){
+                transform: translateX(-100px);
+                background-color: #060047;
+            }
+            &:nth-child(odd){
+                background-color:#362FD9;
+                transform: translateX(100px);
+            }
+        }
+        .transform{
+            transition: all ease-in 300ms; 
+            opacity: 1;
+            transform: translateX(0) !important;
+        }
+    }
+
+}
+

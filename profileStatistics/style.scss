@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #B3005E;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .container{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .box{
+            display: flex;
+            flex-direction: column;
+            //align-content: center;
+            justify-content: center;
+            text-transform: capitalize;
+            text-align: center;
+            width: 17rem;
+            height:9rem;
+            border: 2px solid #FEFBE9;
+            color: #EBC7E6;
+            margin-top: .9em;
+            i{
+                font-size: 3em;
+                color: #FEFBE9;
+            }
+            h1{
+                font-size: 1.9rem;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+
+
+
+// font-family: 'Bree Serif', serif;
+// font-family: 'Lexend Deca', sans-serif;
+// font-family: 'Noto Sans', sans-serif;
+// font-family: 'Sofia Sans', sans-serif;

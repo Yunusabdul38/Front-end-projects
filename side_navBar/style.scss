@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  // background-color: #567189;
+  display: flex;
+  background-color: #cfb997;
+  justify-content: space-between;
+  position: relative;
+ 
+  font-family: 'Noto Sans', sans-seri;
+  nav {
+    position: fixed;
+    font-family: 'Bree Serif', serif;
+    //  width: 100%;
+    transform: translateX(-100%);
+    transition: all 0.3s linear;
+    padding: 1em;
+    background-color: #fbc252;
+    height: 100%;
+    color: #fffbf5;
+    z-index: 55;
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      i {
+        font-size: 3.2rem;
+        margin-right: 0.3em;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        &:hover {
+          transition: all 0.3s linear;
+          color: #13005a;
+        }
+      }
+      img {
+        width: 70%;
+        filter: contrast(100);
+      }
+    }
+    ul {
+      margin-top: 5em;
+
+      li {
+        cursor: pointer;
+        text-transform: capitalize;
+        list-style: none;
+        font-size: 1.5rem;
+        transition: all 0.3s linear;
+
+        &:hover {
+          transition: all 0.3s linear;
+          color: #13005a;
+        }
+      }
+      li + li {
+        margin-top: 1em;
+      }
+    }
+  }
+  .fa-bars {
+    color: #fffbf5;
+    font-size: 3.2rem;
+    position: absolute;
+    top: 0.4em;
+    right: 0.7em;
+    z-index: 0;
+    transition: all 0.3s linear;
+
+    &:hover {
+      transition: all 0.3s linear;
+      color: #13005a;
+    }
+  }
+
+  .bars {
+    transition: all 0.3s linear;
+    transform: translateX(0);
+  }
+  p {
+    transition: all 0.3s linear;
+    color: #fffbf5;
+    font-size: 1.2em;
+    width: 100%;
+    margin-top: 15%;
+  }
+  //   &::first-letter{
+  //     color: aqua;
+  //     font-size: 5em;
+  //   }
+
+  .p {
+    transition: all 0.3s linear;
+    font-size: 1.2em;
+    position: absolute;
+    right: 0;
+    width: 70%;
+    padding-left: 1em;
+  }
+}
+
+@media (min-width: 700px) {
+  nav {
+    width: 30%;
+  }
+}

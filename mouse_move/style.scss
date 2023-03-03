@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+
+  .mouse {
+    display: grid;
+    place-content: center;
+    width: 200px;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+    height: 200px;
+    border: 1px solid gray;
+  }
+  .mouse + .mouse {
+    margin-left: 25px;
+  }
+}
