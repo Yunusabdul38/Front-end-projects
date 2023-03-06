@@ -1,11 +1,11 @@
 
-# Tab Menu
+# Testimony Card
 
 This repo is based on a testimony cards project using html,css & js to implement it 
 
 ## Author
 
-- [@Yunusabdul38](https://github.com/Yunusabdul38)
+-[@Yunusabdul38](https://twitter.com/yunusabdul38)
 
 
 ## Demo
