@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: dodgerblue;
+    background-color: white;
     /* filter: blur(10px); */
 }
 form{
@@ -46,11 +46,14 @@ button:hover{
 }
 .preloader{
     position: absolute;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
      
 }
 .preloader img{
     width: 200px;
-    background-color: black;
-    filter: contrast(22);
     display: none;
 }
